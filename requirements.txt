@@ -1,0 +1,16 @@
+Project runtime requirements
+
+- JDK 17
+- Maven 3.9+ (or another Maven-compatible build tool)
+- PostgreSQL running on `localhost:5432`
+- A PostgreSQL database named `cs209a_grace`
+- Database credentials matching `FinalProject_demo/src/main/resources/application.properties`
+- Source data available in `./data_2000_new`
+
+Application settings
+
+- Spring Boot app name: `FinalProject_demo`
+- HTTP port: `8081`
+- JPA mode: `validate` (the database schema must already exist and match the entities)
+
+If you need to change the database connection, edit `FinalProject_demo/src/main/resources/application.properties`.
